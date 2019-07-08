@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useDropzone} from 'react-dropzone';
 
-import './style.css';
 
 const DropZone = (props) => {
     const [files, setFiles] = useState([]);
